@@ -26,5 +26,6 @@ const server = app.listen(5000, () => {
       console.error('Request failed:', err.message);
       server.close();
       process.exit(1);
+
   })
 });
